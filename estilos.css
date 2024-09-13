@@ -1,0 +1,11 @@
+*{
+margin: 50px;
+
+}
+
+form{
+    box-shadow:  6px 8px 8px  8px;;
+    padding: 20px;
+    background: #bddde5;
+    text-align: left;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Programar es mi pasion</title>
+</head>
+<body>
+    <header><h1>Pregunta 4 de pc1</h1></header>
+    
+    <script src="javascript.js"></script>
+    <div class="container"></div>
+    <form>
+        <h1>Agregar Estudiantes</h1>
+        <p>Deben ser como minimo 5 alumnos</p>
+        <div class="student-form">
+            <input type="text" id="nombre" placeholder="Nombre" required><br><br>
+            <input type="number" id="calificacion" placeholder="Calificación" min="0" max="100" required><br><br>
+            <button onclick="agregarEstudiante()">Agregar Estudiante</button><br><br>
+        </div>
+        <button onclick="mostrarResultados()">Mostrar Resultados</button>
+        <div class="results">
+            <h2>Estudiantes con Menor y Mayor Nota al Promedio</h2>
+            <div id="menor-promedio"></div>
+            <div id="mayor-promedio"></div>
+        </div>
+    </div>
+
+
+    </form>
+      
+    <footer>Gabriel@2024</footer>
+</body>
+</html>
